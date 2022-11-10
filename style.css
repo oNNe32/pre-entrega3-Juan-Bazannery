@@ -110,3 +110,6 @@ transition: .2s;
 .zoom:hover{
     transform: scale(1.5);
 }
+.btn{
+    background-color: #13110d;
+}
