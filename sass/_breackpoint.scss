@@ -1,0 +1,20 @@
+
+@mixin breakpoint($point) {
+    @if $point == viewSmall {
+        @media (min-width:425px) {
+        @content;        
+        }
+    }  
+    
+    @if $point == viewMiddle {
+        @media (min-width:768px) {
+        @content;        
+        }
+    } 
+    
+    @else if $point == viewBig {
+        @media (min-width:1024px) {
+            @content;        
+            }
+    }
+    }

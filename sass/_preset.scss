@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Quicksand:wght@300&display=swap");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$backgroundColor: linear-gradient(75deg, rgba(199,178,134,1) 0%, rgba(221,176,83,1) 35%, rgba(157,115,30,1) 100%);
+$textColor: #fffefc;
+$fontColor: #fffefc;
+
+$iconColor: #854d00;
+$iconMirrorColor: #816101;
+$iconColorHovers: #5a2345;
+
+$bordersColor: #e4e4e4;
+$shadowBox: rgba(56, 56, 56, 0.748) 2px -2px 2px;
+$shadowText: rgba(128, 128, 128, 0.748) 2px 2px 2px;
